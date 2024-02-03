@@ -1,0 +1,12 @@
+# GET http://localhost:5132/todos/
+
+POST http://localhost:5132/todos/
+content-type: application/json
+{
+    "id":1,
+    "activity":"Learn C sharp",
+    "schedule": "2024-12-31",
+    "isCompleted": false
+}
+
+

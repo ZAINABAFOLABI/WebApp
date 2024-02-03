@@ -1,0 +1,19 @@
+# GET http://localhost:5132/todos/
+
+# Testing inbuilt middleware
+# GET http://localhost:5132/tasks/5
+
+# DELETE http://localhost:5132/todos
+
+##
+POST http://localhost:5132/todos
+content-type: application/json
+
+{
+    "id":9,
+    "activity":"Test C Sharp dependency injection",
+    "schedule": "2024-12-31",
+    "isCompleted": false
+}
+
+
